@@ -1,4 +1,4 @@
-# Brute_Force
+# Brute Force Attack Investigation
 
 This investigation focused on analyzing network traffic and system logs to identify a Brute Force Attack on a compromised web server, uncovering the attacker's tactics, the targeted server, and compromised credentials, as well as completing a challenge provided by LetsDefend.io.
 
@@ -45,7 +45,7 @@ From the command line we navigate to the directory that has the folder we need f
 
 #
 
-<img width="650" alt="Screenshot 2025-01-19 203716" src="https://github.com/user-attachments/assets/6278bdda-c47e-4006-822b-3f69c5d52496" />
+<img width="784" alt="Screenshot 2025-01-19 203716" src="https://github.com/user-attachments/assets/6278bdda-c47e-4006-822b-3f69c5d52496" />
 
 #
 
@@ -60,13 +60,47 @@ When prompted for the password, I entered 'infected' to proceed with the extract
 
 #
 
-<img width="650" alt="Screenshot 2025-01-19 211335" src="https://github.com/user-attachments/assets/f02b2028-7f0c-4296-a4be-d982bcd4a613" />
+<img width="784" alt="Screenshot 2025-01-19 211335" src="https://github.com/user-attachments/assets/f02b2028-7f0c-4296-a4be-d982bcd4a613" />
 
 #
 
 We use the ls command to list the contents of the unzipped directory. This command displays the files and subdirectories within the specified directory, providing a quick overview of its structure and contents. By running ls, you can verify that the files have been successfully extracted and are accessible for further analysis.
 
 #
+
+<img width="784" alt="Screenshot 2025-01-19 at 9 19 17 PM" src="https://github.com/user-attachments/assets/55093ebf-f5a2-45cc-a09d-8f54f48fc5ca" />
+
+#
+
+To open Wireshark and begin investigating, simply double-click on the icon that looks like a blue shark fin.
+
+#
+
+<img width="783" alt="Screenshot 2025-01-19 at 9 21 14 PM" src="https://github.com/user-attachments/assets/af86557e-e76e-4ba9-900a-b4b5d8ea0847" />
+
+#
+
+Once Wireshark is open, navigate to the directory where the pcap file is stored (~/root/Desktop/ChallengeFile). To do this:
+
+1. Click on the File menu located in the top-left corner of your screen.
+2. Select Open from the drop-down menu, or alternatively, press Ctrl+O on your keyboard.
+
+#
+
+<img width="788" alt="Screenshot 2025-01-19 at 9 23 26 PM" src="https://github.com/user-attachments/assets/85fa5de3-961c-4c16-98a4-ca86c9d63bfa" />
+
+#
+
+3. Navigate to the appropriate directory in the pop-up window.
+4. Click on the pcap file (BruteForce.pcap) and click Open.
+
+#
+
+<img width="785" alt="Screenshot 2025-01-19 at 9 24 26 PM" src="https://github.com/user-attachments/assets/3868e1e4-cc52-491c-a7d3-c21487f2ec28" />
+
+#
+
+
 
 
 
