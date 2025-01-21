@@ -338,7 +338,7 @@ In the **ClientName** field, we will find the client name of the attacker’s ma
 
 ### Question 6. When did the user last successfully log in via SSH, and who was it?
 
-#### Answer: _mmox:11:43:54_ (username - mmox, time - 11:43:54) 
+#### Answer: _mmox:11:43:54_ (username - mmox; time - 11:43:54) 
 
 Both successful and unsuccessful SSH authentication attempts are recorded in the **auth.log** file. From the Command Line Interface (CLI), navigate to the appropriate directory. In the **BruteForce** directory, which contains our investigation files, run the following command:
 
