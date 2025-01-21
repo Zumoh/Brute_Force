@@ -194,7 +194,7 @@ The HTTP request header shows a '**POST /index.php**' request, indicating that t
 
 ### Question 3. Identify the correct username and password combination used for login.
 
-#### Answer: _username - web-hacker password admin12345_
+#### Answer: _username - web-hacker; password - admin12345_
 
 To identify the correct username and password, locate HTTP POST requests with login credentials in the request body, typically during authentication. Review the request for parameters like username and password, then check the HTTP response packet for success or failure. Examine the Line-Based Text data field in the Packet Dissection Pane, for authentication details. 
 
