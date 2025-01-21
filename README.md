@@ -258,7 +258,7 @@ The request header shows that the username ‘**web-hacker**’ and the password
 
 #### Answer: _7_
 
-We first filter the packets to display only traffic that uses the **HTTP POST** method and is directed to the destination IP '**51[.]116[.]96[.]181**', which belongs to the compromised '**web server**'. The HTTP POST method is commonly used to send login credentials to the server during the authentication phase.  
+We first filter the packets to display only traffic that uses the **HTTP POST** method and is directed to the destination IP '**51.116.96.181**', which belongs to the compromised '**web server**'. The HTTP POST method is commonly used to send login credentials to the server during the authentication phase.  
 
 The output shows multiple packets containing information about user accounts the attacker tried using along with password to gain access to the network. 
 
