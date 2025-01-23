@@ -29,7 +29,7 @@ This investigation analyzes and identifies the details of a Brute Force Attack o
    -  Experience in extracting and managing files using tools like 7-Zip.
       - Unzipping encrypted or compressed files, extracting relevant investigation data, and managing files for analysis are essential skills for effective data handling in cybersecurity investigations.
     
-### Tools Used
+### 🛠️ Tools Used
 
 - **Wireshark**: For network packet analysis.
 - **7-Zip (7za)**: For extracting files from a compressed archive.
